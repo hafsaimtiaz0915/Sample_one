@@ -1,0 +1,150 @@
+html *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top_bar{
+    background-color:  rgb(61, 147, 234);
+    padding: 5px 50px 20px 50px;
+}
+.top_bar p{
+    font-size: smaller;
+    color: white;
+    justify-content: space-between;
+    padding:0;
+    margin: 0;
+}
+#top_right{
+    float: right;
+}
+#top_left{
+    float: left;
+}
+.navbar{
+    background-color: #031b33;
+    padding: 10px 80px 10px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 12px 5px;
+    float: right;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+}
+.navbar a:hover{
+    background-color: #2de3e3;
+}
+#navheading{
+    float: left;
+    color: white;
+    font-size:large;
+    margin: 0;
+    padding: 0;
+}
+.picture{
+    background-image: url(./images/meeting2.jpg);
+    height: 600px;
+    width: 100%;
+    margin: 0;
+}
+.picture >.overlay {
+    background-color: rgba(21, 118, 214, 0.958);
+    opacity: 0.75;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+.overlay h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    padding-top: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.overlay p{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.part2 {
+    margin: 0;
+    background-color:  rgb(208, 206, 206);
+    display: flex;
+    padding: 40px 30px;
+ }
+ .part2 > .alignleft h3{
+     margin: 0;
+     padding: 0;
+ }
+ .part2 > .alignleft p{
+     margin: 0;
+ }
+ .part2 > .alignright {
+    padding: 30px 40px 10px 40px;
+ }
+ .part2 > .alignright a{
+     background-color:  rgb(61, 147, 234);
+     padding: 10px 20px 10px 20px;
+     margin: 30px 5px;
+     text-decoration: none;
+     color: white;
+ }
+ .part3{
+    background: white;
+    padding: 0 100px 0 100px;
+}
+.part3 h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.part3 > .aligncenter{
+    display: inline;
+    margin-bottom: 40px;
+}
+.row1,.row2{
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 40px 20px 40px;
+    margin: 10px 0px;
+
+}
+.col1,.col2,.col3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.image{
+padding: 30px 8px;
+}
+ .part4{
+    margin: 0;
+    background-color:  rgb(208, 206, 206);
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+.part4 p{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px; 
+}
+body{
+    overflow: scroll;
+    margin: 0;
+}
